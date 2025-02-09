@@ -81,13 +81,12 @@ const UploadingPage = () => {
         className="bg-transparent backdrop-filter backdrop-blur-lg"
       >
         <div className="container mx-auto px-4 py-6 flex justify-between items-center">
-          <motion.div
-            whileHover={{ scale: 1.1 }}
-            className="text-2xl font-bold"
-          >
-            Fieler
-          </motion.div>
-        </div>
+  <motion.div whileHover={{ scale: 1.1 }} className="flex items-center space-x-3">
+    <img src="src\assets\logo.png" alt="Logo" className="h-10" />
+    <span className="text-2xl font-bold">Fieler</span>
+  </motion.div>
+</div>
+
       </motion.header>
 
       {/* Main content */}
